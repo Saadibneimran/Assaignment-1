@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+.common-button {
+    background-color: #1d4ed8;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav  {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 5px;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    align-items: center;
+}
+/* hero start */
+
+.hero-head{
+position: relative;
+}
+.hero-img{
+     width: 100%;
+            height: 940px;
+}
+.hero-text{
+    position: absolute;
+    top: 220px;
+    left: 450px;
+    text-align: center;
+    color: rgb(247, 244, 244);
+}
+.hero-text p{
+    width: 600px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.font-heading{
+    font-size: 60px;
+color: white;
+}
+.hero-head button{
+    position: absolute;
+    top: 700px;
+    left: 790px;
+padding:15px 20px ;
+}
+/* Meet speaker */
